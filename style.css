@@ -1,0 +1,410 @@
+#myVideo {
+  width: 100%;
+ }
+
+
+body {
+  margin: 0;
+ }
+
+
+
+  .nav-link  {
+     color:#26577C;
+  }
+
+
+.logo {
+    display: flex;
+    justify-content: space-around; 
+    padding: 10px;
+    flex-wrap: wrap;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+    position: -webkit-sticky;
+    box-shadow: 0px -8px 7px -4px rgba(34, 60, 80, 0.1) inset;
+   }
+
+.section-about {
+    margin-top: 40px;
+  }
+
+
+.section-header {
+   display: flex;
+   flex-direction: column;
+   background-color: #2a6f9b;
+   margin-top:-5px;
+ }
+
+
+
+.header-h3 {
+   color: white;
+   padding: 20px;
+   text-transform: uppercase;
+   font-family: "Montserrat",sans-serif;
+   text-align: center;
+  }
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+ }
+
+
+
+button {
+   background-color: #212A3E;
+   padding: 18px;
+   border: 2px solid white;
+   }
+
+
+
+.call {
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Monserrat",sans-serif;
+   }
+
+
+
+button:hover {
+    background-color:white;
+    border: 2px solid #212A3E;
+   }
+  
+
+.call:hover {
+    color: #212A3E;
+   }
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+   }
+
+.heading-h2 {
+    text-transform: uppercase;
+    color: #043454;
+    font-family: "Montserrat",sans-serif;
+    font-size: 32px;
+   }
+
+
+
+.section-about {      
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color:#f2f2f2;
+  padding-bottom: 40px;
+
+}
+
+
+.about-us {
+  color:  #484848;
+  font-family: "Montserrat",sans-serif;
+  font-size: 15px;
+}
+
+
+.why-us {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: 50px;
+  margin-right: 50px; 
+}
+
+
+.img-section {
+ align-items: center;
+  justify-content: center; 
+  text-align: center;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 400px;
+  background-color:#f2f2f2;
+}
+
+
+h3 {
+  color: #484848;
+  font-family: "Montserrat",sans-serif;
+  font-size: 24px;
+    }
+
+
+
+
+.tools {
+  color: #484848;
+  font-family: "Montserrat",sans-serif;
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
+ }
+
+
+.footer-container {
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ }
+
+
+.contact{
+ display: flex;
+ margin: 40px; 
+ margin-top: -15px;
+ align-items: center;
+}
+
+
+.info {
+ color: #043454;;
+ font-family: "Montserrat",sans-serif;
+ font-size: 24px;
+ text-transform: uppercase;
+ text-align: center;
+ padding-top: 30px;
+}
+
+
+ul {
+ color:   #484848;
+ font-family: "Montserrat",sans-serif;
+ font-size: 16px;
+ list-style: none;
+} 
+
+
+.time, .tel, .home, .mail {
+  margin-bottom: 20px;
+}
+
+
+
+.home::before {
+content: "";
+display: inline-block;
+background: url("https://cdn.glitch.global/be8c7635-2f83-4b1d-ac4e-afeb5044e688/house.png?v=1697531876906") 0 0/100% no-repeat;
+width: 35px;
+height: 35px;
+margin-bottom: -10px;
+}
+  
+
+.time::before {
+  content: "";
+  display: inline-block;
+  background: url("https://cdn.glitch.global/be8c7635-2f83-4b1d-ac4e-afeb5044e688/clock.png?v=1697531695525") 0 0/100% no-repeat;
+  width: 30px;
+  height: 30px;
+  margin-bottom: -10px;
+}
+
+
+.tel::before {
+  content: "";
+  display: inline-block;
+  background: url("https://cdn.glitch.global/be8c7635-2f83-4b1d-ac4e-afeb5044e688/phone.png?v=1697531930999") 0 0/100% no-repeat;
+  width: 30px;
+  height: 30px;
+  margin-bottom: -10px;
+}
+ 
+
+.mail::before {
+  content: "";
+  display: inline-block;
+  background: url("https://cdn.glitch.global/be8c7635-2f83-4b1d-ac4e-afeb5044e688/mail.png?v=1697531905612") 0 0/100% no-repeat;
+  width: 30px;
+  height: 30px;
+  margin-bottom: -10px;
+}
+  
+.street {
+  margin-left: 35px;
+  }
+ 
+
+.footer-container-end {
+background-color: #212A3E;
+padding: 5px;
+text-align: center;
+/* width: 1400px; */
+
+}
+
+.footer {
+color: white;
+font-size: 12px;
+font-family: "Montserrat",sans-serif;
+}
+
+a {
+text-decoration: none;
+color:  #484848;
+}
+
+a:hover {
+color: #2a6f9b;
+}
+
+ 
+.wrapper {
+    display: flex;
+    justify-content:center;
+    background-color:#f2f2f2;
+    
+   }
+
+   .servise {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 650px;
+    margin: 30px;
+   }
+  
+
+
+  .flip-card {
+    width: 100%;
+    height: 370px;
+    perspective: 1000px;  
+  }
+  
+
+  /* Этот контейнер нужен для позиционирования переда и обратной стороны фото */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Поворот горизонтальный */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Позиционирования переда и обратной стороны фото на телефоне */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    /* height: 100%; */
+    -webkit-backface-visibility: hidden; /*Safari*/
+    backface-visibility: hidden;
+  } 
+   
+  /* Стиль переда и обратной стороны фото */
+  .flip-card-back {
+    transform: rotateY(180deg);
+     }
+
+ .item-selection {
+  text-align: center;
+   color:   #484848;
+   font-family: "Montserrat",sans-serif;
+  }
+
+
+  .details {
+    font-size: 15px;
+    text-align: center;
+    color:   #484848;
+    font-family: "Montserrat",sans-serif;
+  }
+
+
+@media all and (max-width:800px) {
+
+
+.nav {
+ display: flex;
+ justify-content: center;
+   
+}  
+ 
+.logo-img {
+  width: 20%
+  }
+
+/* #myVideo {
+  margin-top: 150px;
+}
+ */
+.header {
+ font-size: 15px;
+ padding: 10px;
+ }
+
+ .heading-h2 {
+ text-align: center;
+   font-size: 25px;
+ }
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.contact {
+  display: flex;
+ flex-direction: column; 
+}
+
+.street {
+  margin-left: 0px;
+  }
+
+iframe {
+  width: 70%;
+}
+ 
+.wrapper { 
+  display: flex;
+  flex-direction: column;
+ } 
+
+.servise {
+  width: 100%;
+  height: auto;
+  margin: 0px;
+   }
+ 
+
+.img-servis {
+  width: 70%;
+}
+
+}
+  
+
+@media all and (max-width:500px) {
+  
+  .img-servis {
+    width: 100%;
+  }
+
+
+.flip-card {
+  height: 300px;
+}
+
+}
